@@ -1,15 +1,15 @@
-# Living Hope Community Initiative (LHCI) — Website
+# Living Hope Community Initiative (LHCI)  Website
 
 The official website for **Living Hope Community Initiative (LHCI)**, a nonprofit empowering children, youth, and vulnerable families through mentorship, education and skills support, and family/community empowerment programs.
 
 🔗 **Live site:** [living-hope-community.vercel.app](https://living-hope-community.vercel.app)
-🛠️ Built by [Azimu Digital](https://www.azimudigital.tech)
+    Built by [Azimu Digital](https://www.azimudigital.tech)
 
 ---
 
 ## About
 
-Living Hope Community Initiative creates practical pathways for children, young people, and vulnerable families to live with hope, dignity, and purpose — working alongside communities, partners, volunteers, and local leaders to turn compassion into sustainable action.
+Living Hope Community Initiative creates practical pathways for children, young people, and vulnerable families to live with hope, dignity, and purpose  working alongside communities, partners, volunteers, and local leaders to turn compassion into sustainable action.
 
 This website serves as LHCI's digital presence: sharing its mission, programs, and impact, and giving visitors a way to volunteer, partner, or donate.
 
@@ -71,6 +71,4 @@ Several pieces of placeholder content are still marked for replacement with LHCI
 
 Designed and developed by **[Azimu Digital](https://www.azimudigital.tech)**.
 
-## License
 
-Add a license here if you intend the code to be reused (e.g. MIT), or state that all rights are reserved to LHCI.
