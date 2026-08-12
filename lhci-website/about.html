@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .inner-hero {
+            background: var(--dark);
+            color: #fff;
+            padding: 170px 0 90px;
+        }
+        
+        .inner-hero p:last-child {
+            max-width: 680px;
+            color: #c7d2cc;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        
+        .page-section {
+            padding: 100px 0;
+        }
+        
+        .cards3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        
+        .info-card {
+            background: var(--cream);
+            padding: 32px;
+            border-radius: 22px;
+        }
+        
+        .info-card b {
+            color: var(--green);
+            font-size: 11px;
+        }
+        
+        .info-card h3 {
+            margin: 12px 0;
+        }
+        
+        .form-box {
+            background: #fff;
+            padding: 35px;
+            border-radius: 25px;
+            box-shadow: var(--shadow);
+        }
+        
+        .form-box label {
+            display: block;
+            font-size: 12px;
+            font-weight: 700;
+            margin: 15px 0;
+        }
+        
+        .form-box input, .form-box textarea, .form-box select {
+            display: block;
+            width: 100%;
+            margin-top: 7px;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 13px;
+            font: inherit;
+        }
+        
+        .amounts {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .amount {
+            padding: 13px;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            background: #fff;
+            font-weight: 700;
+        }
+        
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 70px;
+            align-items: start;
+        }
+        
+        .check-list {
+            margin: 25px 0;
+        }
+        
+        .check-list div {
+            padding: 8px 0;
+        }
+        
+        .check-list span {
+            display: inline-grid;
+            place-items: center;
+            background: var(--lime);
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            margin-right: 9px;
+        }
+        
+        @media (max-width: 800px) {
+            .cards3, .two-col {
+                grid-template-columns: 1fr;
+            }
+            
+            .inner-hero {
+                padding: 140px 0 70px;
+            }
+            
+            .page-section {
+                padding: 75px 0;
+            }
+            
+            .amounts {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+    <title>About | Living Hope Community Initiative</title>
+</head>
+<body>
+    <header class="site-header" id="siteHeader">
+        <div class="container nav-wrap">
+            <a class="brand" href="../index.html">
+                <span class="brand-mark">LH</span>
+                <span>
+                    <strong>Living Hope</strong>
+                    <small>Community Initiative</small>
+                </span>
+            </a>
+            <button class="nav-toggle" aria-label="Open navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav">
+                <a href="../index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="../index.html#programs">Programs</a>
+                <a href="volunteer.html">Volunteer</a>
+                <a class="btn btn-primary" href="donate.html">Donate</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="inner-hero">
+            <div class="container">
+                <p class="eyebrow" style="color:var(--lime)">About LHCI</p>
+                <h1>Building hope. Transforming lives.</h1>
+                <p>Living Hope Community Initiative works to empower children, youth, and vulnerable families to live with hope, dignity, and purpose.</p>
+            </div>
+        </section>
+        
+        <section class="page-section">
+            <div class="container two-col">
+                <div class="image-placeholder">
+                    YOUR ABOUT IMAGE
+                    <br>
+                    <small>assets/images/about.jpg</small>
+                </div>
+                
+                <div class="section-copy">
+                    <p class="eyebrow">Our story</p>
+                    <h2>A community where every person can thrive.</h2>
+                    <p>LHCI believes lasting change begins when communities are listened to, supported, and equipped to create their own solutions.</p>
+                    <p>We combine mentorship, education, skills, practical support, partnerships, and community action to create pathways toward opportunity.</p>
+                    <a class="btn btn-primary" href="volunteer.html">Join the movement →</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="page-section" style="background:var(--cream)">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">What guides us</p>
+                        <h2>Vision, mission & values.</h2>
+                    </div>
+                </div>
+                
+                <div class="cards3">
+                    <article class="info-card">
+                        <b>VISION</b>
+                        <h3>A transformed community.</h3>
+                        <p>Every child, youth, and vulnerable family lives with hope, dignity, and purpose.</p>
+                    </article>
+                    
+                    <article class="info-card">
+                        <b>MISSION</b>
+                        <h3>Empower people.</h3>
+                        <p>Empower children, youth, and families through mentorship, education, skills, resources, and opportunity.</p>
+                    </article>
+                    
+                    <article class="info-card">
+                        <b>VALUES</b>
+                        <h3>Dignity and integrity.</h3>
+                        <p>We lead with compassion, collaboration, accountability, and a commitment to sustainable impact.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <section class="page-section">
+            <div class="container two-col">
+                <div class="section-copy">
+                    <p class="eyebrow">Our approach</p>
+                    <h2>Listen. Equip. Empower. Transform.</h2>
+                    <div class="check-list">
+                        <div>
+                            <span>✓</span> Listen to community needs and strengths.
+                        </div>
+                        <div>
+                            <span>✓</span> Equip people with knowledge and opportunity.
+                        </div>
+                        <div>
+                            <span>✓</span> Empower individuals and local leaders.
+                        </div>
+                        <div>
+                            <span>✓</span> Measure progress and strengthen what works.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="image-placeholder">
+                    YOUR COMMUNITY IMAGE
+                </div>
+            </div>
+        </section>
+        
+        <section class="cta">
+            <div class="container cta-inner">
+                <div>
+                    <p class="eyebrow">Take action</p>
+                    <h2>There is a place for you in this story.</h2>
+                    <p>Volunteer, partner with us, or support an LHCI program.</p>
+                </div>
+                <div class="cta-actions">
+                    <a class="btn btn-dark" href="volunteer.html">Volunteer</a>
+                    <a class="btn btn-outline-dark" href="donate.html">Donate</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand footer-brand" href="../index.html">
+                    <span class="brand-mark">LH</span>
+                    <span>
+                        <strong>Living Hope</strong>
+                        <small>Community Initiative</small>
+                    </span>
+                </a>
+                <p>Hope, dignity, and purpose for every child, youth, and vulnerable family.</p>
+            </div>
+            
+            <div>
+                <h4>Explore</h4>
+                <a href="../index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="../index.html#programs">Programs</a>
+            </div>
+            
+            <div>
+                <h4>Get involved</h4>
+                <a href="volunteer.html">Volunteer</a>
+                <a href="donate.html">Donate</a>
+            </div>
+            
+            <div>
+                <h4>Connect</h4>
+                <p>hello@lhci.org</p>
+                <p>+254 700 000 000</p>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <span>© <span id="year"></span> Living Hope Community Initiative.</span>
+            <span>Built with purpose.</span>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
